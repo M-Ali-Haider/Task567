@@ -1,0 +1,19 @@
+.card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.heading {
+  transition: all 0.3s ease;
+}
+.desc {
+  transition: all 0.3s ease;
+}
+.card:hover .heading {
+  color: white;
+}
+.card:hover {
+  background: #222222;
+}
+.card:hover .desc {
+  color: #64748b;
+}

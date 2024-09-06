@@ -1,0 +1,9 @@
+.hover {
+  left: 0;
+  bottom: -96px;
+  background: rgba(0, 0, 0, 0.7);
+  transition: bottom 0.4s ease;
+}
+.card:hover .hover {
+  bottom: 0px;
+}

@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+body {
+  background: #f1f5f8;
+}
+main {
+  padding-bottom: 100px;
+}
+svg {
+  width: 32px;
+  height: 32px;
+  fill: #617d98;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+svg:hover {
+  fill: #49a6e9;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +47,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
