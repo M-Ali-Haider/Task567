@@ -1,4 +1,4 @@
-import WikiCard from "./wikiCard";
+import WikiCard from "./WikiCard";
 
 export default function WikiContainer({ data }) {
   console.log(data);
